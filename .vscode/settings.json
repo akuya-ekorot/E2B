@@ -73,6 +73,17 @@
   // Disable Pylint and use just Pylance
   "python.linting.enabled": false,
   "python.analysis.typeCheckingMode": "basic",
+  "cSpell.words": [
+    "codestral",
+    "crewai",
+    "Groq",
+    "kwargs",
+    "langchain",
+    "llms",
+    "Mastra",
+    "mistralai",
+    "Ollama"
+  ],
   // "python.analysis.pylanceLspClientEnabled": true,
   // "python.analysis.inlayHints.functionReturnTypes": true,
   // "python.analysis.inlayHints.pytestParameters": true,

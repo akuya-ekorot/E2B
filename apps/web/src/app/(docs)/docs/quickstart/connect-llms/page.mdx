@@ -13,6 +13,7 @@ If the LLM doesn't support tool use, you can, for example, prompt the LLM to out
 - [LangChain](#langchain)
 - [LlamaIndex](#llamaindex)
 - [Ollama](#ollama)
+- [Mastra](#mastra)
 
 ---
 
@@ -739,5 +740,17 @@ with Sandbox() as sandbox:
     result = execution.logs.stdout
 
 print(result)
+```
+</CodeGroup>
+
+---
+
+## Mastra
+
+[Mastra](https://mastra.ai) is an open-source TypeScript agent framework designed to give you the primitives you need to build AI applications and features.
+
+<CodeGroup>
+```bash
+npx -y create-mastra@latest --project-name e2b-example --components "tools,agents" --llm "openai"
 ```
 </CodeGroup>
